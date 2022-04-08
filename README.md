@@ -39,6 +39,8 @@ Make sure to replace `Your Name Here` and `your@email.here` with your personal i
 ### Accepting an assignment
 Your teacher will give a URL accept the assignment and automatically generate your repository. When you click accept, you'll see a page like this and can open your repository in VSCode with a single click.
 
+> **Note:** There is a bug where if you already have a folder open in VSCode, it will not open the repository. Make sure to close the current folder you have open by clicking `File -> Close Folder`.
+
 ![Accept Assignment](ta/img/assignment-accepted.png)
 
 You may be asked to authorise your account with Github. If you do, click "Authorize Github" to do so.
@@ -50,6 +52,18 @@ When you click on the "Open in Visual Studio Code" button, you'll be prompted to
 
 Once the install is complete, your assignment folder should open, however you may need to come back to this page to click the "Open in Visual Studio Code" button again to get it to work.
 
+### Tests
+Tests are automatic checks that can grade your project immediately.
+
+![Sync Changes](ta/img/sync-changes.png)
+
+This assignment has a super simple test that checks for a file and sees if the contents of that file matches the following.
+
+Create a file called `SUBMISSION.md` with the contents:
+```
+Hello world!
+```
+
 ### Syncing your changes & Tests
 When you make changes to your code, you'll need to press the "Sync" button to push those changes to your repository.
 
@@ -60,13 +74,3 @@ A message box will appear asking you to include a small description describing y
 ![Changes Description](ta/img/changes-description.png)
 
 When you sync your changes, any tests will run and auto-grade your work
-
-# Submission Tasks
-
-## Hello world
-Create a file called `SUBMISSION.md` with the contents:
-```
-Hello world!
-```
-
-Sync the changes to Github and see that the tests pass!
