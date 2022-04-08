@@ -3,9 +3,6 @@
 ## Overview
 This guide will get you setup and ready for learning how to program using Visual Studio Code (vscode) with Github.
 
-## Assumed Knowledge
-Before starting this tutorial, it's assumed that you have already created a Github account and can access Github classroom.
-
 ## Installing  Software
 
 ### Visual Studio Code
@@ -37,7 +34,39 @@ git config --global core.ignorecase false
 
 Make sure to replace `Your Name Here` and `your@email.here` with your personal information.
 
-## Github Classroom
+## Using Github Classroom
 
-### Open the assignment in Visual Studio Code
-COMING SOON.
+### Accepting an assignment
+Your teacher will give a URL accept the assignment and automatically generate your repository. When you click accept, you'll see a page like this and can open your repository in VSCode with a single click.
+
+![Accept Assignment](ta/img/assignment-accepted.png)
+
+You may be asked to authorise your account with Github. If you do, click "Authorize Github" to do so.
+
+### Installing the Github Classroom Extension
+When you click on the "Open in Visual Studio Code" button, you'll be prompted to install the Github Classroom extension if you haven't already.
+
+![Install Github Classroom Extension](ta/img/install-ghc-extension.png)
+
+Once the install is complete, your assignment folder should open, however you may need to come back to this page to click the "Open in Visual Studio Code" button again to get it to work.
+
+### Syncing your changes & Tests
+When you make changes to your code, you'll need to press the "Sync" button to push those changes to your repository.
+
+![Sync Changes](ta/img/sync-changes.png)
+
+A message box will appear asking you to include a small description describing your changes. Fill in the description and press enter.
+
+![Changes Description](ta/img/changes-description.png)
+
+When you sync your changes, any tests will run and auto-grade your work
+
+# Submission Tasks
+
+## Hello world
+Create a file called `SUBMISSION.md` with the contents:
+```
+Hello world!
+```
+
+Sync the changes to Github and see that the tests pass!
