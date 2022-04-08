@@ -13,7 +13,7 @@ Visual Studio Code (vscode) is a free IDE (Integrated Development Environment) t
 
 To install vscode, head to the [Download Page](https://code.visualstudio.com/download) and follow the instructions to download the latest version.
 
-![Download VSCode](img/download-vscode.png)
+![Download VSCode](ta/img/download-vscode.png)
 
 ### Git
 Git is a version control system that is used to track changes in source code. It is used to manage source code and to collaborate with other developers.
