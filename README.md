@@ -50,7 +50,7 @@ When you click on the "Open in Visual Studio Code" button, you'll be prompted to
 
 ![Install Github Classroom Extension](ta/img/install-ghc-extension.png)
 
-Once the install is complete, your assignment folder should open, however you may need to come back to this page to click the "Open in Visual Studio Code" button again to get it to work.
+> **Note:** Once the install is complete, your assignment folder should open, however you may need to come back to this page to click the "Open in Visual Studio Code" button again to get it to work.
 
 ### Tests
 Tests are automatic checks that can grade your project immediately.
