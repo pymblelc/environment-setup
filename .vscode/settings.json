@@ -8,6 +8,7 @@
         "**/Thumbs.db": true,
         "_config.yml": true,
         "ta/": true,
+        ".github/": true,
         ".vscode/": true
     }
 }
