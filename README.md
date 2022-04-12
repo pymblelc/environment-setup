@@ -59,7 +59,7 @@ Tests are automatic checks that can grade your project immediately.
 
 This assignment has a super simple test that checks for a file and sees if the contents of that file matches the following.
 
-Create a file called `SUBMISSION.md` with the contents:
+Edit the file called `SUBMISSION.md` and insert the following contents:
 ```
 Hello world!
 ```
