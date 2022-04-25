@@ -17,7 +17,7 @@ Git is a version control system that is used to track changes in source code. It
 
 How you install git will depend on your operating system.
 
-**Windows**: Install Git from the [Git for Windows](https://gitforwindows.org/) website.
+**Windows**: Install Git from the [Git for Windows](https://git-scm.com/downloads) website.
 
 **MacOS**: Install Git from the by running the following command in a terminal:
 ```
